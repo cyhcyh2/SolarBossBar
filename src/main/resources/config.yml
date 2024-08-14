@@ -1,0 +1,9 @@
+MessagePrefix: "&7[&bSolar&fBossBar&7]"
+SwitchingSpeed: 100
+BossBars:
+  bb1:
+    title: "&7默认BossBar"
+    color: "BLUE"
+  bb2:
+    title: "&7Default BossBar"
+    color: "BLUE"

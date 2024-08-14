@@ -1,0 +1,15 @@
+#file: noinspection SpellCheckingInspection
+name: SolarBossBar
+version: '${project.version}'
+main: me.cyh2.solarbossbar.SolarBossBar
+api-version: '1.16'
+commands:
+  solar-boss-bar-reload:
+    description: "重载插件的指令"
+    permission: SolarBossBar.reload
+    permission-message: "抱歉，您没有权限运行该指令"
+    aliases: [ "sbbreload", "sbbr" ]
+permissions:
+  SolarBossBar.reload:
+    description: "重载插件的权限"
+    default: op
